@@ -31,13 +31,28 @@ function myFunction() {
   }
 }
 
-function userClicked() {
+function mouseDown1() {
     var x = event.clientX;
     var y = event.clientY;
+	document.getElementById("x").innerHTML = x;
+	document.getElementById("y").innerHTML = y;
+	
+	var width = document.body.clientWidth;
+	var height = document.body.clientHeight;
     var wheelSel = document.getElementById("wheel");
     wheelSel.style.display = 'block';
-    wheelSel.style.position = 'center';
+    wheelSel.style.position = 'absolute';
+	wheelSel.style.left = x-width/2 + 100 + 'px'
+	wheelSel.style.top = y-200 + 'px'
 }
+
+function mouseUp1() {
+
+    var wheelSel = document.getElementById("wheel");
+    wheelSel.style.display = 'none';
+    wheelSel.style.position = 'absolute';
+}
+
 
 function myFunction1() {
   document.getElementById("demo").innerHTML = emoji;
