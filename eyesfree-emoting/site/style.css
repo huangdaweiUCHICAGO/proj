@@ -1,0 +1,166 @@
+body {
+  text-align: center;
+  font-family: 'Avenir Next';
+}
+
+
+.card {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.ellipse {
+  margin: 0 auto;
+  height: 18vh;
+  width: 18vh;
+  background-color: #45597e;
+  border-radius: 50%;
+  margin-bottom: 2vh;
+}
+
+.emoji {
+  height: 13vh;
+  margin-top: 3.25vh;
+}
+
+.emoji_name {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  font-size: 20px;
+  font-weight: 500;
+  color: #3A4D8D;
+}
+
+.heading {
+  margin-bottom: 1rem;
+}
+
+.large_prompt {
+  padding: 1rem;
+  color: #3A4D8D;
+  font-size: 25px;
+}
+
+.logo {
+  height: 45vh;
+  margin: 2rem 0;
+}
+
+.outer {
+  text-align: center;
+  padding: 1.5rem 1rem 1rem;
+}
+
+.test {
+  width: 8rem;
+  padding: 0.5rem;
+  margin: 0.25rem;
+}
+
+.status {
+  margin: 1.25rem 0;
+}
+
+.top_left {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+.trace {
+  position: absolute;
+  z-index: -1;
+  text-align: center;
+  top: 48vh;
+  left: 50%;
+  margin-left: -95px;
+  width: 190px;
+}
+
+canvas {
+  border: 5px solid #a5bde6;
+}
+
+html, body {
+  height: 85%;
+  overscroll-behavior-y: contain;
+}
+
+.ellipse {
+    margin: 0 auto;
+    height: 20vh;
+    width: 20vh;
+    background-color: #45597e;
+    border-radius: 50%;
+    margin-bottom: 5vh;
+}
+
+
+/* Scroll wheel styling */
+
+
+
+
+.dial-wrapper {
+  font-size: 1rem;
+  border: 0.2em solid rgba(64, 64, 64, 0.4);
+  border-radius: 100%;
+  width: 33em;
+  height: 33em;
+  position: absolute;
+  background-color: rgba(220, 220, 220, 0.5);
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dial-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.item {
+  user-select: none;
+  position: absolute;
+  display: block;
+  
+}
+
+.item > input {
+  height: 7.75em;
+  width: 7.75em;
+}
+
+.item-1 {
+  transform: rotate(0.083333333turn) translate(-11.5em) rotate(-0.083333333turn);
+}
+
+.item-2 {
+  transform: rotate(0.25turn) translate(-11.5em) rotate(-0.25turn);
+}
+
+.item-3 {
+  transform: rotate(0.416666turn) translate(-11.5em) rotate(-0.416666turn);
+}
+
+.item-4 {
+  transform: rotate(0.583333turn) translate(-11.5em) rotate(-0.583333turn);
+}
+
+.item-5 {
+  transform: rotate(0.75turn) translate(-11.5em) rotate(-0.75turn);
+}
+
+.item-6 {
+  transform: rotate(0.9166666turn) translate(-11.5em) rotate(-0.9166666turn);
+}
+
+.no-scroll {
+  overscroll-behavior: none;
+}
